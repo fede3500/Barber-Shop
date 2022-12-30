@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booking</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar-->
+    <header>
+
+
+
+        <div class="box">
+            <h1><img src="./images/logo/cabello+barba-logo.png" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"> Home</a></li>
+                    <li><a href="./products.html">Services</a></li>
+                    <li><a href="./booking.html">Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Booking-->
+    <main>
+        <form>
+            <label for="nameandsurname">Name and Surname</label>
+            <input type="text" id="nameandsurname" class="input-parent" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-parent" required placeholder="email@domain.com">
+
+            <label for="telephone">Telephone Number</label>
+            <input type="tel" id="telephone" class="input-parent" required placeholder="(XX) XXXX XXXX">
+
+            <label for="message">Message</label>
+            <textarea cols="70" rows="10" id="message" class="input-parent" required></textarea>
+
+            <fieldset>
+                <legend>How would you like us to contact you?</legend>
+
+                <label for="radio-email"><input type="radio" name="contactform" value="E-mail"
+                        id="radio-email">E-mail</label>
+
+                <label for="radio-telefono"><input type="radio" name="contactform" value="Telephone"
+                        id="radio-telephone">Telephone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contactform" value="Whatsapp" id="radio-whatsapp"
+                        checked>WhatsApp</label>
+
+            </fieldset>
+            <fieldset>
+
+                <label>Reservation day</label>
+                <input type="date" id="checkin-date" name="checkin" class="input-parent"  required>
+
+            </fieldset>
+            <fieldset>
+                <label>Choose an appointment time (9:00 AM to 18:00 PM): </label>
+                <input type="time" name="time-date" id="time-date" min="09:00" max="18:00" class="input-parent" required>
+                <span class="validity"></span>
+                
+            </fieldset>
+            <fieldset>
+                <label for="choose_package">Choose package</label>
+                <select class="input-parent">
+                    <option value="Option 1" id="choose_package">Hair</option>
+                    <option value="Option 2" id="choose_package">Beard</option>
+                    <option value="Option 3" id="choose_package">Hair + Beard</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" checked>Do you like to receive notifications of
+                promotions and news from Chompiras Barbershop?</label>
+
+            <input type="submit" value="Book now" class="send">
+            
+            <table class="center">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hour</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Monday</td>
+                    <td>9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>9:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9:00-18:00</td>
+                </tr>
+            </table>
+        </form>
+
+    
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <!--add all information -->
+            <h3 class="tittle_fotter">&#9986 Chompiras Barbershop &#9986</h3>
+            <p>"There are no ugly men, only men who don't know a good barber"</p>
+            <p class="copyright"> &copy; Copyright by Federico Medina - 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
