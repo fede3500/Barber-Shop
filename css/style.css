@@ -374,7 +374,7 @@ footer{
 /* Booking*/ 
 
 form {
-    width: auto;
+    width: auto ;
 }
 
 table {
@@ -401,7 +401,7 @@ legend,label{
     }
    .products li{
     width: auto;
-    margin: 3px;
+    margin: 5%;
    }
 
  }
