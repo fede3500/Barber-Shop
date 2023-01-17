@@ -56,8 +56,8 @@ nav a:hover{
 
 h1 img{
     border-radius: 50%;
-    width: 200px;
-    height: 160px;
+    width: 22%;
+    height: auto;
     margin-left: 10px;
        }
     
@@ -361,6 +361,7 @@ footer{
     }  
      nav {
         position: static;
+        margin: 2%;
      }
 
     .box, .main_content, .location_map, .contact_us, .content_services, .video, .services, footer {
@@ -377,6 +378,9 @@ footer{
     }
   iframe{
     width: 95%;
+  }
+  h1 img{
+    width: 45%;
   }
 /* Booking*/ 
 
